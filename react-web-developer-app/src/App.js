@@ -3,7 +3,12 @@ import './App.css';
 import FlexLayout from './components/FlexLayout';
 */
 
-import WebDeveloper from "./components/WebDeveloper";
+import ConditionalRenderElements from "./components/ConditionalRenderElements";
+import ConditionalRenderingDemo from "./components/conditionalRenderingDemo";
+
+/* import JsxDemoSamples from "./components/JsxDemoSamples"; */
+
+/* import WebDeveloper from "./components/WebDeveloper"; */
 
 /*  
 import './News.css';
@@ -21,10 +26,10 @@ import './Form2.css' */
 function App() {
   return (
     <div className="App">
-      <WebDeveloper/>
+        
       
-      
-      
+      <ConditionalRenderingDemo/>
+      <ConditionalRenderElements/>      
       {/* 
       <FormLayout fname="First Name"/>
       <FlexLayout/>
@@ -32,6 +37,7 @@ function App() {
       <FormLayout2/>
       <EmployeesDemo/>
       <WebDeveloper/>
+      <JsxDemoSamples/>
       */
      }
     </div>
