@@ -78,6 +78,14 @@ const [updateTodo,setUpdateTodo]= useState("");
                               }}
                         onClick={() => saveHandler(y)}>Save
                   </button>
+                   <button style={{
+                    padding: 12,
+                    borderRadius: 25,
+                    fontSize: 15,
+                    marginLeft: 20,
+                  }}
+                  onClick={() => setUpdate({update: false, id: y.id})}
+                  >Cancel</button>
                   
                   </>
 
